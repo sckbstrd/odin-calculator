@@ -18,3 +18,6 @@ function divide(a, b) {
 }
 
 
+function operate(a, operator, b) {
+    return operator(a, b);
+}
